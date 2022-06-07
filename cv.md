@@ -6,16 +6,31 @@
 
 ### Contact information:
 
-Phone: +79033317386
-E-mail: s.v.baumgertner@gmail.com
+Phone: +79033317386  
+E-mail: s.v.baumgertner@gmail.com  
 Discord: svetlana (@sbaumgertner)
 
 ***
 
-### About myself
+### About myself:
 
 In different periods of my life I worked as a flash developer, php developer, java developer and even taught at the university. I am currently on parental leave and  I want to try frontend development.
 
 
 ***
 
+### Skills and Proficiency:
+
+- Java
+- PHP
+- Oracle
+- mysql
+- Git, Subversion
+- IntelliJ IDEA
+
+***
+
+### Languages:
+
+- English pre-intermediate
+- Russian native
