@@ -409,7 +409,7 @@ body {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-.footer, h2, h1 {
+.footer, h3, h2, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -459,7 +459,14 @@ h1 {
 h2 {
   font-size: 2.2rem;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: bold;
   line-height: 3rem;
 }
 
@@ -488,7 +495,7 @@ ul, pre {
   cursor: pointer;
   font-size: 1.6rem;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 2.4rem;
 }
 .navigation__link:hover {

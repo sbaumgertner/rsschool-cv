@@ -18,7 +18,7 @@
     color: $color-light;
     cursor: pointer;
     @extend %transition;
-    @include font($size: 1.6rem, $height: 2.4rem, $weight: normal);
+    @include font($size: 1.6rem, $height: 2.4rem, $weight: bold);
     &:hover {
         color: $color-hover;
     }
