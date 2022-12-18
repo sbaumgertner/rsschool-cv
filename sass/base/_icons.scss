@@ -1,0 +1,29 @@
+.github-object {
+    height: 40px;
+}
+
+.rsschool-object {
+    height: 40px;
+}
+
+.github-g {
+    fill: $color-light;
+    @extend %transition;
+}
+
+.github-svg:hover {
+    .github-g {
+        fill: $color-hover;
+    }
+}
+
+.rs-path {
+    fill: $color-light;
+    @extend %transition;
+}
+
+.rs-svg:hover {
+    .rs-path {
+        fill: $color-hover;
+    }
+}

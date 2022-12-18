@@ -1,0 +1,13 @@
+.footer {
+    padding: 10px 0;
+    background-color: $color-bg-additional;
+    box-shadow: 0px -3px 2px $color-dark;
+    color: $color-light;
+    @extend %font-add;
+}
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

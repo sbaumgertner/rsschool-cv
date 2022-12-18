@@ -1,0 +1,24 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+    @extend %font-prim;
+    color: $color-dark;
+}
+
+h1 {
+    @extend %font-add;
+    @include font($size: 4.4rem, $height: 5.4rem);
+}
+
+h2 {
+    @extend %font-add;
+    @include font($size: 2.2rem, $height: 3rem, $weight: normal);
+}
+
+ul, pre {
+    margin: 0;
+}
+
