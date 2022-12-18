@@ -1,116 +1,181 @@
 <!DOCTYPE html>
-
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-
-	<title>CV</title>
-	<meta name="description" content="curriculum vitae">
-	<meta name="author" content="sbaumgertner">
-
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" href="assets/img/favicon.ico">
-</head>
-
-<body>
-	<header class="header">
-		<div class="container">
-			<nav class="nav">
-				<ul class="nav-list">
-					<li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
-					<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<main class="main">
-		<div class="container main-container">
-			<section class="main-section" id="profile">
-				<img src="assets/img/ava.jpg" class="ava" alt="photo">
-				<div class="main-section-title">
-					<br><br>
-					<h1 class="main-section-text">Svetlana Baumgertner</h1>
-					<h3 class="main-section-text">Junior Frontend Developer</h3>
+	<head>
+		<meta charset="UTF-8">
+		<title>Curriculum vitae</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="sass/style.css">
+		<link rel="icon" href="assets/img/web.ico">
+	</head>
+	<body>
+		<header class="header">
+			<div class="wrapper header__wrapper">
+				<nav class="header__navigation">
+					<ul class="navigation">
+						<li class="navigation__item"><a href="#contacts" class="navigation__link">Contacts</a></li>
+						<li class="navigation__item"><a href="#skills" class="navigation__link">Skills</a></li>
+						<li class="navigation__item"><a href="#languages" class="navigation__link">Languages</a></li>
+						<li class="navigation__item"><a href="#about-me" class="navigation__link">About Me</a></li>
+						<li class="navigation__item"><a href="#education" class="navigation__link">Education</a></li>
+						<li class="navigation__item"><a href="#experience" class="navigation__link">Experience</a></li>
+						<li class="navigation__item"><a href="#projects" class="navigation__link">Projects</a></li>
+						<li class="navigation__item"><a href="#code" class="navigation__link">Code Example</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="profile">
+			<div class="wrapper profile__wrapper">
+				<img src="assets/img/ava2.jpg" class="profile__photo" alt="photo">
+				<div class="profile__title">
+					<h1>Svetlana Baumgertner</h1>
+					<hr class="profile__line">
+					<h3>Junior Frontend Developer</h3>
 				</div>
-			</section>
-			<section class="section" id="contacts">
-				<h2 class="section-title">Contacts</h2>
-				<ul>
-					<li>Phone: +79033317386</li>
-					<li>E-mail: s.v.baumgertner@gmail.com</li>
-					<li>Discord: svetlana (@sbaumgertner)</li>
-				</ul>
-			</section>
-			<section class="section" id="summary">
-				<h2 class="section-title">Summary</h2>
-				<p>In different periods of my life I worked as a flash developer, php developer, java developer and even taught at the university. I am currently on parental leave and I want to try frontend development.</p>
-			</section>
-			<section class="section" id="skills">
-				<h2 class="section-title">Skills</h2>
-				<ul>
-					<li>JavaEE</li>
-					<li>PHP</li>
-					<li>Oracle</li>
-					<li>MySQL</li>
-					<li>HTML, CSS basic</li>
-					<li>Git, Subversion</li>
-				</ul>
-			</section>
-			<section class="section" id="education">
-				<h2 class="section-title">Education</h2>
-				<ul>
-					<li>2009: Togliatti State University, Information systems software and administration, specialist</li>
-					<li>2011: Togliatti State University, Applied mathematics and computer science, master</li>
-				</ul>
-			</section>
-			<section class="section" id="languages">
-				<h2 class="section-title">Languages</h2>
-				<ul>
-					<li>English pre-intermediate</li>
-					<li>Russian native</li>
-				</ul>
-			</section>
-			<section class="section" id="projects">
-				<h2 class="section-title">Projects</h2>
-				<a href="https://sbaumgertner.github.io/rsschool-cv/">RSschool CV project</a>
-			</section>
-			<!--<section class="section" id="code">
-				<h2 class="section-title">Code</h2>
-
-			</section>-->
-		</div>
-	</main>
-	<footer class="footer">
-		<div class="container footer-container">
-			<p class="footer-section">
-				<a class="footer-link" href="https://github.com/sbaumgertner">
-					<img
-						src="assets/img/GitHub-Mark-32px.png"
-						width="16"
-						height="16"
-						alt="github"
-					>
-					sbaumgertner
-				</a>
-			</p>
-			<p class="footer-section">2022</p>
-			<p class="footer-section">
-				<a class="footer-link" href="https://rs.school/js/">
-					<img
-						src="https://rs.school/images/rs_school_js.svg"
-						width="86"
-						height="32"
-						alt="RS School"
-					>
-				</a>
-			</p>
-		</div>
-	</footer>
-</body>
+			</div>
+		</section>
+		<main class="main">
+			<div class="wrapper main__wrapper">
+				<div class="left">
+					<section class="contacts" id="contacts">
+						<h2 class="section-title">Contacts</h2>
+						<div class="section-content">
+							<ul>
+								<li class="contacts__item">
+									<object type="image/svg+xml" data="./assets/img/ico_phone.svg">
+										Your browser does not support SVG
+									</object>
+									<a href="tel:+79033317386" class="li-link contacts__link">							
+										+79033317386
+									</a>
+								</li>
+								<li class="contacts__item">
+									<object type="image/svg+xml" data="./assets/img/ico_mail.svg">
+										Your browser does not support SVG
+									</object>
+									<a href="mailto:s.v.baumgertner@gmail.com" class="li-link contacts__link">
+										s.v.baumgertner@gmail.com
+									</a>
+								</li>
+								<li class="contacts__item">
+									<object type="image/svg+xml" data="./assets/img/ico_discord.svg">
+										Your browser does not support SVG
+									</object>
+									<a href="https://discordapp.com/users/862428185937707039" class="li-link contacts__link">
+										svetlana(@sbaumgertner)
+									</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="skills" id="skills">
+						<h2 class="section-title">Skills</h2>
+						<div class="section-content">
+							<ul class="content-ul">
+								<li class="content-li">JavaEE</li>
+								<li class="content-li">PHP</li>
+								<li class="content-li">Oracle, PL/SQL</li>
+								<li class="content-li">MySQL</li>
+								<li class="content-li">HTML basic</li>
+								<li class="content-li">CSS basic</li>
+								<li class="content-li">JS basic</li>
+								<li class="content-li">Git, Subversion</li>
+							</ul>
+						</div>
+					</section>
+					<section class="languages" id="languages">
+						<h2 class="section-title">Languages</h2>
+						<div class="section-content">
+							<ul class="content-ul">
+								<li class="content-li">English pre-intermediate</li>
+								<li class="content-li">Russian native</li>
+							</ul>
+						</div>
+					</section>
+					<section class="projects" id="projects">
+						<h2 class="section-title">Projects</h2>
+						<div class="section-content">
+							<ul class="content-ul">
+								<li class="content-li"><a class="li-link" href="https://sbaumgertner.github.io/rsschool-cv/">RSschool CV project</a></li>
+								<li class="content-li"><a class="li-link" href="https://sbaumgertner.github.io/codejam-eldritch/">RSschool Eldritch game helper project</a></li>
+								<li class="content-li"><a class="li-link" href="https://rolling-scopes-school.github.io/sbaumgertner-JSFEPRESCHOOL2022Q2/travel/">RSschool Travel project</a></li>
+								<li class="content-li"><a class="li-link" href="https://rolling-scopes-school.github.io/sbaumgertner-JSFEPRESCHOOL2022Q2/momentum/">RSschool Momentum project</a></li>
+							</ul>
+						</div>
+					</section>
+				</div>
+				<div class="right">
+						<section class="about-me" id="about-me">
+							<h2 class="section-title">About Me</h2>
+							<div class="section-content">
+								I've been working in software development for more than 10 years. 
+								I started with flash programming. Then I worked on the development, 
+								support and integration of university information systems. 
+								Lately I've been working at Netcracker as a java developer. 
+								Now I'm on maternity leave and it's time to try frontend!
+							</div>
+						</section>
+						<section class="education" id="education">
+							<h2 class="section-title">Education</h2>
+							<div class="section-content">
+								<ul class="content-ul">
+									<li class="content-li">2004-2009: Togliatti State University, Information systems software and administration, Specialist</li>
+									<li class="content-li">2009-2011: Togliatti State University, Applied mathematics and computer science, Master of Science</li>
+								</ul>
+							</div>
+						</section>
+						<section class="experience" id="experience">
+							<h2 class="section-title">Experience</h2>
+							<div class="section-content">
+								<ul class="content-ul">
+									<li class="content-li">2010-2011: Drimmi Ltd, Software Developer</li>
+									<li class="content-li">2011-2017: Togliatti State University, Software Developer</li>
+									<li class="content-li">2011-2013: Togliatti State University, Lecturer</li>
+									<li class="content-li">2017-2020: NetCracker LCC, Software Developer</li>
+								</ul>
+							</div>
+						</section>
+						<section class="section" id="code">
+							<h2 class="section-title">Code Example</h2>
+							<div class="section-content">
+<pre><code class="code" data-language="javascript"><span class="cm-keyword">function</span> <span class="cm-def">isPrime</span>(<span class="cm-def">num</span>) {
+	<span class="cm-keyword">if</span> (<span class="cm-variable-2">num</span> <span class="cm-operator">===</span> <span class="cm-number">2</span>){
+		<span class="cm-keyword">return</span> <span class="cm-atom">true</span>;
+	} 
+	<span class="cm-keyword">if</span> (<span class="cm-variable-2">num</span> <span class="cm-operator">&lt;</span> <span class="cm-number">2</span> <span class="cm-operator">||</span> ((<span class="cm-variable-2">num</span> <span class="cm-operator">%</span> <span class="cm-number">2</span>) <span class="cm-operator">===</span> <span class="cm-number">0</span>)){
+		<span class="cm-keyword">return</span> <span class="cm-atom">false</span>;
+	} 
+	<span class="cm-keyword">let</span> <span class="cm-def">lastDevisor</span> <span class="cm-operator">=</span> <span class="cm-variable">Math</span>.<span class="cm-property">ceil</span>(<span class="cm-variable">Math</span>.<span class="cm-property">sqrt</span>(<span class="cm-variable-2">num</span>));
+	<span class="cm-keyword">for</span> (<span class="cm-keyword">let</span> <span class="cm-def">i</span> <span class="cm-operator">=</span> <span class="cm-number">3</span>; <span class="cm-variable-2">i</span> <span class="cm-operator">&lt;=</span> <span class="cm-variable-2">lastDevisor</span>; <span class="cm-variable-2">i</span><span class="cm-operator">++</span>){
+		<span class="cm-keyword">if</span> (<span class="cm-variable">isPrime</span>(<span class="cm-variable-2">i</span>) <span class="cm-operator">&amp;&amp;</span> (<span class="cm-variable-2">num</span> <span class="cm-operator">%</span> <span class="cm-variable-2">i</span>) <span class="cm-operator">===</span> <span class="cm-number">0</span>){
+			<span class="cm-keyword">return</span> <span class="cm-atom">false</span>;
+		}
+	}
+	<span class="cm-keyword">return</span> <span class="cm-atom">true</span>;
+}</code></pre>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="wrapper footer__wrapper">
+				<div class="footer__github">
+					<object type="image/svg+xml" data="./assets/img/github.svg" class="object-link github-object">
+						Your browser does not support SVG
+					</object>
+				</div>
+				<div class="footer__year">© 2022 by sbaumgertner</div>
+				<div class="footer__rsschool">
+					<object type="image/svg+xml" data="./assets/img/rs_school_js.svg" class="object-link rsschool-object">
+						Your browser does not support SVG
+					</object>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
 
