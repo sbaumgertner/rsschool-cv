@@ -447,6 +447,8 @@ body {
   font-weight: normal;
   line-height: 2.6rem;
   color: #31708E;
+  width: 100%;
+  min-width: 1220px;
 }
 
 h1 {
