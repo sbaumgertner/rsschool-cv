@@ -141,21 +141,6 @@
 						<section class="section" id="code">
 							<h2 class="section-title">Code Example</h2>
 							<div class="section-content">
-<pre><code class="code" data-language="javascript"><span class="cm-keyword">function</span> <span class="cm-def">isPrime</span>(<span class="cm-def">num</span>) {
-	<span class="cm-keyword">if</span> (<span class="cm-variable-2">num</span> <span class="cm-operator">===</span> <span class="cm-number">2</span>){
-		<span class="cm-keyword">return</span> <span class="cm-atom">true</span>;
-	}
-	<span class="cm-keyword">if</span> (<span class="cm-variable-2">num</span> <span class="cm-operator">&lt;</span> <span class="cm-number">2</span> <span class="cm-operator">||</span> ((<span class="cm-variable-2">num</span> <span class="cm-operator">%</span> <span class="cm-number">2</span>) <span class="cm-operator">===</span> <span class="cm-number">0</span>)){
-		<span class="cm-keyword">return</span> <span class="cm-atom">false</span>;
-	}
-	<span class="cm-keyword">let</span> <span class="cm-def">lastDevisor</span> <span class="cm-operator">=</span> <span class="cm-variable">Math</span>.<span class="cm-property">ceil</span>(<span class="cm-variable">Math</span>.<span class="cm-property">sqrt</span>(<span class="cm-variable-2">num</span>));
-	<span class="cm-keyword">for</span> (<span class="cm-keyword">let</span> <span class="cm-def">i</span> <span class="cm-operator">=</span> <span class="cm-number">3</span>; <span class="cm-variable-2">i</span> <span class="cm-operator">&lt;=</span> <span class="cm-variable-2">lastDevisor</span>; <span class="cm-variable-2">i</span><span class="cm-operator">++</span>){
-		<span class="cm-keyword">if</span> (<span class="cm-variable">isPrime</span>(<span class="cm-variable-2">i</span>) <span class="cm-operator">&amp;&amp;</span> (<span class="cm-variable-2">num</span> <span class="cm-operator">%</span> <span class="cm-variable-2">i</span>) <span class="cm-operator">===</span> <span class="cm-number">0</span>){
-			<span class="cm-keyword">return</span> <span class="cm-atom">false</span>;
-		}
-	}
-	<span class="cm-keyword">return</span> <span class="cm-atom">true</span>;
-}</code></pre>
 						</div>
 					</section>
 				</div>
